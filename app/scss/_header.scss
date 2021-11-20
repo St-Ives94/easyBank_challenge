@@ -3,7 +3,7 @@
     //Hamburger open
     &.open {
 
-        .header__menu {
+        .header__toggle {
             >span:first-child{
                 transform: rotate(45deg);
             }
@@ -52,6 +52,17 @@
             &:not(:last-child) {
                 margin-bottom: 6px;
             }
+        }
+    }
+
+    &__menu {
+        background: $white;
+        padding: 1.625rem;
+
+        a {
+            color: $darkBlue;
+            padding: 0.625rem;
+
         }
     }
 
