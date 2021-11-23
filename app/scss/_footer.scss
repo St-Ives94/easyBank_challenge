@@ -47,13 +47,13 @@
         display: inline-block;
         height: 1.25rem;
 
-        svg path {
-          transition: fill 150ms ease-in-out;
-        }
+      //   svg path {
+      //     transition: fill 150ms ease-in-out;
+      //   }
 
-        &:hover svg path {
-          fill: $limeGreen;
-        }
+      //   &:hover svg path {
+      //     fill: $limeGreen;
+      //   }
       }
 
       a:not(:last-child) {
